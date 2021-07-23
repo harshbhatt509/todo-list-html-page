@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html>
+   <head>
+      <title>TaskList</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel='stylesheet' href='./styles/addNewItem.css'>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   </head>
+   <body>
+      <div class="main-container">
+         <div class='header'>
+            <span class="main-heading">
+               <h1>Tasks</h1>
+               <p>Lists</p>
+            </span>
+            <span class='add'>
+               <i class="material-icons">add</i>
+               <h4>Add List</h4>
+            </span>
+         </div>
+         <div class='item-list'>
+            <div class='item-card'>
+               <h4 class='item-heading'>Trip To Paris</h4>
+               <p class='task-status'>Completed Task</p>
+               <div class="checkbox-container"> 
+                  <input
+                  id='status'
+                  type='checkbox'
+                  >
+                  <label
+                     name='status'
+                     for='status'
+                  >Pending Task</label>
+               </div>
+            </div>
+
+            <div class='item-card'>
+               <h4 class='item-heading'>My Todo List</h4>
+               <p class='task-status'>Completed Task</p>
+               <div class="checkbox-container">
+                  <input
+                  id='status'
+                  type='checkbox'
+                  >
+                  <label
+                     name='status'
+                     for='status'
+                  >Pending Task</label>
+               </div>
+            </div>
+
+            <div class='item-card'>
+               <h4 class='item-heading'>My Todo List</h4>
+               <p class='task-status'>Completed Task</p>
+               <div class="checkbox-container">
+                  <input
+                  id='status'
+                  type='checkbox'
+                  >
+                  <label
+                     name='status'
+                     for='status'
+                  >Pending Task</label>
+               </div>
+            </div>
+
+            <div class='item-card'>
+               <h4 class='item-heading'>My Todo List</h4>
+               <p class='task-status'>Completed Task</p>
+               <div class="checkbox-container">
+                  <input
+                  id='status'
+                  type='checkbox'
+                  >
+                  <label
+                     name='status'
+                     for='status'
+                  >Pending Task</label>
+               </div>
+            </div>
+         </div>
+      </div>
+      <form class="add-item-card">
+         <label
+            class="add-item-label"
+            name="add"
+            for="add"
+         >Add New List</label>
+         <input
+            class="input"
+            name="add"
+            id="add"
+            type="text"
+         >
+         <button class="primary-btn">Add</button>
+      </form>
+   </body>
+</html>
